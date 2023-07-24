@@ -23,7 +23,7 @@ def inefficient_factors(number: int) -> List[int]:
 def more_efficient_factor(number_to_factor: int) -> List[int]:
     factors = []
 
-    for i in range(1, int(math.sqrt(number_to_factor))):
+    for i in range(1, int(math.sqrt(number_to_factor))):  # Factors will always be less than the sqrt of a number
         if number_to_factor % i == 0:
             factors.append(i)
             factors.append(number_to_factor / i)
@@ -34,6 +34,6 @@ def more_efficient_factor(number_to_factor: int) -> List[int]:
 
 if __name__ == "__main__":
     # factors_of_one_billion_inefficient = inefficient_factors(1_000_000_000)  # Elapsed Time: 26.894s (98% CPU)
-    factors_of_one_billion_more_efficient = more_efficient_factor(34)
+    factors_of_one_billion_more_efficient = more_efficient_factor(34)  # Elapsed Time: 0.02s (47% CPU)
 
     print(factors_of_one_billion_more_efficient)
