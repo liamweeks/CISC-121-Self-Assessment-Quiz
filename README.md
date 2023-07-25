@@ -10,3 +10,5 @@ The questions for from the other booklet (supposedly from 2016) are included in 
 Here's a link to some more questions that are from 2016: https://courses.caslab.queensu.ca/cisc121/self-assessment-test-for-programming-prerequisites/
 The answers to these "tasks" are placed in ```tasks/```
 
+
+**The solutions are made to be as efficient as possible**
