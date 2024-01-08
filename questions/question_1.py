@@ -34,6 +34,6 @@ def more_efficient_factor(number_to_factor: int) -> List[int]:
 
 if __name__ == "__main__":
     # factors_of_one_billion_inefficient = inefficient_factors(1_000_000_000)  # Elapsed Time: 26.894s (98% CPU)
-    factors_of_one_billion_more_efficient = more_efficient_factor(34)  # Elapsed Time: 0.02s (47% CPU)
+    factors_of_one_billion_more_efficient = more_efficient_factor(1_000_000_000)  # Elapsed Time: 0.02s (47% CPU)
 
     print(len(factors_of_one_billion_more_efficient))
